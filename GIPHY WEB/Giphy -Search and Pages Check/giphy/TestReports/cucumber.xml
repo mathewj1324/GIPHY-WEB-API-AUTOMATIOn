@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.142092">
+<testcase classname="Giphy Login Automation" name="Successfully Login and perform Upload Function and Pages Check" time="15.142092">
+<system-out><![CDATA[Given user clicks on Login Button...........................................passed
+And user enter correct username.............................................passed
+And user enter correct password.............................................passed
+And user successfully Logged in.............................................passed
+And User clicked on upload Button...........................................passed
+And user select upload file Option..........................................passed
+And user performed pages check..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

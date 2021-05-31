@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Successfully Login and perform Upload Function and Pages Check",
+        "description": "",
+        "id": "giphy-login-automation;successfully-login-and-perform-upload-function-and-pages-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7872470100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user clicks on Login Button",
+            "match": {
+              "location": "Steps.userClicksOnLoginButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 265506000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter correct username",
+            "match": {
+              "location": "Steps.userEnterUsername()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 436312500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter correct password",
+            "match": {
+              "location": "Steps.userEnterpassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1671638700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user successfully Logged in",
+            "match": {
+              "location": "Steps.userSuccessfullyLoggedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1432694100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicked on upload Button",
+            "match": {
+              "location": "Steps.user_clicked_on_upload_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91518600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user select upload file Option",
+            "match": {
+              "location": "Steps.user_select_upload_file_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3371952400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user performed pages check",
+            "match": {
+              "location": "Steps.user_performed_pages_check()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Giphy Login Automation",
+    "description": "",
+    "id": "giphy-login-automation",
+    "keyword": "Feature",
+    "uri": "End2End_Test.feature"
+  }
+]

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="39.965159">
+<testcase classname="Login Application" name="Valid user name and password" time="11.370519">
+<system-out><![CDATA[Given I launch the url "https://www.giphy.com"..............................passed
+When I provide "testmail@test.com" and "Test@432"...........................passed
+And I click on login button.................................................passed
+Then I should see the login page............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Application" name="Valid user name and password 2" time="8.602961">
+<system-out><![CDATA[Given I launch the url "https://www.giphy.com"..............................passed
+When I provide "987654210" and "Test@432"...................................passed
+And I click on login button.................................................passed
+Then I should see the login page............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Application" name="Valid user name and password 3" time="8.99448">
+<system-out><![CDATA[Given I launch the url "https://www.giphy.com"..............................passed
+When I provide "username1" and "Test@432"...................................passed
+And I click on login button.................................................passed
+Then I should see the login page............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Application" name="Valid user name and password 4" time="10.997199">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at stepdefinition.Steps.i_should_see_the_Error_message(Steps.java:46)&#13;&#10;&#9;at ✽.Then I should see the login page(End2End_Test.feature:9)&#13;&#10;"><![CDATA[Given I launch the url "https://www.giphy.com"..............................passed
+When I provide "mathewj1324@gmail.com" and "0@Iwonthegame"..................passed
+And I click on login button.................................................passed
+Then I should see the login page............................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepdefinition.Steps.i_should_see_the_Error_message(Steps.java:46)
+	at ✽.Then I should see the login page(End2End_Test.feature:9)
+]]></failure>
+</testcase>
+</testsuite>

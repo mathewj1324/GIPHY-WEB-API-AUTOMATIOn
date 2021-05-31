@@ -1,0 +1,325 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Valid user name and password",
+        "description": "",
+        "id": "login-application;valid-user-name-and-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9900844200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the url \"https://www.giphy.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.giphy.com",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.i_launch_the_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 225141000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I provide \"testmail@test.com\" and \"Test@432\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testmail@test.com",
+                  "offset": 11
+                },
+                {
+                  "val": "Test@432",
+                  "offset": 35
+                }
+              ],
+              "location": "Steps.i_provide_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 447402700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on login button",
+            "match": {
+              "location": "Steps.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 797130800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see the login page",
+            "match": {
+              "location": "Steps.i_should_see_the_Error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Valid user name and password",
+        "description": "",
+        "id": "login-application;valid-user-name-and-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7542251500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the url \"https://www.giphy.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.giphy.com",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.i_launch_the_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 228657600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I provide \"987654210\" and \"Test@432\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "987654210",
+                  "offset": 11
+                },
+                {
+                  "val": "Test@432",
+                  "offset": 27
+                }
+              ],
+              "location": "Steps.i_provide_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59798600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on login button",
+            "match": {
+              "location": "Steps.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 772253000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see the login page",
+            "match": {
+              "location": "Steps.i_should_see_the_Error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Valid user name and password",
+        "description": "",
+        "id": "login-application;valid-user-name-and-password;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7953376500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the url \"https://www.giphy.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.giphy.com",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.i_launch_the_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 216627400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I provide \"username1\" and \"Test@432\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username1",
+                  "offset": 11
+                },
+                {
+                  "val": "Test@432",
+                  "offset": 27
+                }
+              ],
+              "location": "Steps.i_provide_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57130300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on login button",
+            "match": {
+              "location": "Steps.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 767346300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see the login page",
+            "match": {
+              "location": "Steps.i_should_see_the_Error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Valid user name and password",
+        "description": "",
+        "id": "login-application;valid-user-name-and-password;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8069433400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the url \"https://www.giphy.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.giphy.com",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.i_launch_the_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 348388700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I provide \"mathewj1324@gmail.com\" and \"0@Iwonthegame\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mathewj1324@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "0@Iwonthegame",
+                  "offset": 39
+                }
+              ],
+              "location": "Steps.i_provide_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1814436400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on login button",
+            "match": {
+              "location": "Steps.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 764940400,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat stepdefinition.Steps.i_should_see_the_Error_message(Steps.java:46)\r\n\tat ✽.Then I should see the login page(End2End_Test.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I should see the login page",
+            "match": {
+              "location": "Steps.i_should_see_the_Error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Application",
+    "description": "As a user\nI want to login to the application",
+    "id": "login-application",
+    "keyword": "Feature",
+    "uri": "End2End_Test.feature"
+  }
+]
