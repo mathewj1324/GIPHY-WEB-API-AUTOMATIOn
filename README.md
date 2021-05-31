@@ -1,4 +1,7 @@
 # GIPHY-WEB-API-AUTOMATIOn
+
+
+
 API Test case is inlcuded in this repository with search and upload function
 Framework Used - BDD with Cucumber
 Software Used - Selenium using Eclipse
@@ -9,6 +12,8 @@ Runner File - File to run the complete programme and to generate the HTML report
 
 
 Two Test cases for Web API included in this repository
+Performing LOGIn with positive and negative cases
+Perforing searching and Pages Check
 Framework Used - BDD with Cucumber 
 Software Used - Selenium using Eclipse
 Programming Language - Java
